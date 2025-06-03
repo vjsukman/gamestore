@@ -2,7 +2,7 @@
 
 To set up GameStore in your local environment, follow these steps
 
-1. **Clone the repository**: Clone this repository to your local machine using `git clone https://github.com/danielwidhiarto/GameStore.git`.
+1. **Clone the repository**: Clone this repository to your local machine using `git clone https://github.com/vjsukman/gamestore.git`.
 
 2. **Install dependencies**: Navigate to the project directory and install the Laravel dependencies by running `composer install`.
 
