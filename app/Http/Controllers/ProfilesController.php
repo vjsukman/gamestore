@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Models\Transaction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -33,6 +34,4 @@ class ProfilesController extends Controller
 
     return redirect()->route('Profile.profile_admin', ['id' => $profile->id])->with('success', 'Profile updated successfully!');
     }
-
-
 }

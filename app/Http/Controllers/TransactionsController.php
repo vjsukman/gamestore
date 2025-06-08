@@ -88,4 +88,10 @@ class TransactionsController extends Controller
 
         return view('home.history', compact('historyTr'));
     }
+
+    public function history_admin()
+    {
+        $transactions = Transaction::with(['game.genre', 'user'])->orderByDesc('transaction_date_time')->paginate(10);
+        return view('transaction.index', compact('transactions'));
+    }
 }

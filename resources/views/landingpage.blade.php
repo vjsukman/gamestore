@@ -49,7 +49,7 @@
 <body>
     <div class="jumbotron text-center">
         <a href="{{ route('home_guest') }}">
-            <img src="{{ asset('storage/images/gamestore_logo.png') }}" alt="Logo" class="logo">
+            <img src="{{ asset('storage/images/gamestore_logo.jpeg') }}" alt="Logo" class="logo">
         </a>
         <h1 class="display-4">Gamestore</h1>
         <p class="lead">Welcome to Gamestore Web App</p>

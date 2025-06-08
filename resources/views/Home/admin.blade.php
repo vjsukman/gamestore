@@ -1,6 +1,6 @@
 @extends('Components.admin')
 
-@section('title', 'Home | GameSlot')
+@section('title', 'Home | Gamestore')
 
 @section('content')
 

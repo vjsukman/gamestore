@@ -80,3 +80,4 @@ Route::delete('/cart/delete/{id}', [TransactionsController::class, 'delete_game_
 Route::post('/cart/transaction/post', [TransactionsController::class, 'purchase'])->name('purchase')->middleware([AuthCheck::class])->middleware([RoleCustomerCheck::class]);
 Route::delete('/cart/delete', [TransactionsController::class, 'delete_cart'])->name('delete_cart')->middleware([AuthCheck::class])->middleware([RoleCustomerCheck::class]);
 Route::get('/history', [TransactionsController::class, 'history_index'])->name('history_index')->middleware([AuthCheck::class])->middleware([RoleCustomerCheck::class]);
+Route::get('/history/admin', [TransactionsController::class, 'history_admin'])->name('history_admin')->middleware([AuthCheck::class])->middleware([RoleCheck::class]);

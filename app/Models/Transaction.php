@@ -9,6 +9,13 @@ class Transaction extends Model
 {
     use HasFactory;
 
+    protected $table = 'transactions';
+    protected $fillable = [
+        'transaction_user_id',
+        'transaction_game_id',
+        'qty',
+    ];
+
     public function user(){
         return $this->belongsTo(User::class, 'transaction_user_id', 'id');
     }
