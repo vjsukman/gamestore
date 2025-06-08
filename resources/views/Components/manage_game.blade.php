@@ -253,8 +253,8 @@
                     <li><a href="{{ route('manage_game') }}" class="nav-link">
                             <i class="bi bi-controller me-2"></i>Manage Game
                         </a></li>
-                    <li><a href="{{ route('manage_genre') }}" class="nav-link">
-                            <i class="bi bi-tags me-2"></i>Manage Game Genre
+                    <li><a href="{{ route('history_admin') }}" class="nav-link">
+                            <i class="bi bi-tags me-2"></i>Transaction History
                         </a></li>
                 </ul>
 
@@ -302,7 +302,7 @@
     <div class="container">
         <footer class="custom-footer d-flex flex-wrap justify-content-between align-items-center">
             <div class="col-md-4 d-flex align-items-center">
-                <span>© 2023 Gamestore - Admin Dashboard</span>
+                <span>© 2025 Gamestore - Admin Dashboard</span>
             </div>
             <div class="col-md-4 text-end">
                 <span>Made with ❤️ for better gaming experience</span>

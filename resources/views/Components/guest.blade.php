@@ -280,7 +280,7 @@
     <div class="container">
         <footer class="custom-footer d-flex flex-wrap justify-content-between align-items-center">
             <div class="col-md-4 d-flex align-items-center">
-                <span>© 2023 Gamestore - Guest View</span>
+                <span>© 2025 Gamestore - Guest View</span>
             </div>
             <div class="col-md-4 text-end">
                 <span>Made with ❤️ for better gaming experience</span>
